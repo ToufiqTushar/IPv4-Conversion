@@ -1,7 +1,11 @@
 <h1 align="center">🧠 IPv4 Converter</h1>
 
+<hr>
+
 <p align="center">
-  A smart and simple web application that converts between <strong>Decimal</strong> and <strong>Binary</strong> IP addresses. It also shows the IP class, default subnet mask, and number of hosts per subnet.
+    <h2>📌 Overview</h2>
+The IPv4 Converter is a user-friendly web application designed to seamlessly convert IPv4 addresses between decimal and binary formats. It provides real-time input validation, identifies the IP address class, and displays the corresponding default subnet mask along with the number of hosts per subnet. With an intuitive interface, conversion history, and engaging confetti animations, this tool is perfect for networking students and professionals who want quick and accurate IP conversions.
+
 </p>
 
 <hr>
@@ -15,7 +19,7 @@
   <li>📜 Conversion history (last 10 records)</li>
   <li>🎉 Confetti animation on successful conversion</li>
 </ul>
-
+<hr>
 <h2>🛠️ Technologies Used</h2>
 
 <table>
@@ -45,6 +49,7 @@
   </tbody>
 </table>
 
+<hr>
 
 <h2>🔧 Dependencies</h2>
 
@@ -52,6 +57,7 @@
   <li><a href="https://www.npmjs.com/package/canvas-confetti" target="_blank">Canvas Confetti</a> (CDN linked in <code>index.html</code>)</li>
 </ul>
 
+<hr>
 
 <h2>📂 File Structure</h2>
 
@@ -61,6 +67,8 @@ Data-Converter/
 ├── style.css        <span style="color:gray"># Styling and animations</span>
 └── script.js        <span style="color:gray"># Logic for conversion, validation, and feedback</span>
 </pre>
+
+<hr>
 
 <h2>🚀 How to Use</h2>
 
@@ -75,6 +83,8 @@ Data-Converter/
   <li>Click the <strong>Convert ↔</strong> button.</li>
   <li>View the converted IP, IP class, subnet mask, host count, and history.</li>
 </ol>
+
+<hr>
 
 <h2>🔧 Dependencies</h2>
 
@@ -99,4 +109,16 @@ Data-Converter/
     <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"/>
   </a>
   </p>
+</div>
+
+<hr>
+
+<div align="center">
+  <h2>📃 License</h2>
+  <p>
+    <a href="https://opensource.org/licenses/MIT" target="_blank">
+      <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge" alt="License: MIT"/>
+    </a>
+  </p>
+  <p>This project is licensed under the <strong>MIT License</strong> — feel free to use, modify, and distribute with proper attribution.</p>
 </div>
