@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>IP Converter</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>IP Address Converter</h1>
+
+    <label for="decimalIP">Decimal IP Address:</label>
+    <input type="text" id="decimalIP" placeholder="e.g. 192.168.1.1" />
+
+    <label for="binaryIP">Binary IP Address:</label>
+    <input type="text" id="binaryIP" placeholder="e.g. 11000000.10101000.00000001.00000001" />
+
+    <button id="convertBtn" disabled>Convert ↔</button>
+
+    <div class="feedback-container">
+      <div id="decFeedback" class="feedback"></div>
+      <div id="binFeedback" class="feedback"></div>
+    </div>
+
+    <div class="result">
+      <p><strong>Decimal:</strong> <span id="convertedDecimal">-</span></p>
+      <p><strong>Binary:</strong> <span id="convertedBinary">-</span></p>
+      <p><strong>IP Class:</strong> <span id="ipClass">-</span></p>
+      <p><strong>Subnet Mask:</strong> <span id="subnetMask">-</span></p>
+      <p><strong>Hosts per Subnet:</strong> <span id="hostsCount">-</span></p>
+    </div>
+
+    <h2>Conversion History</h2>
+    <div id="historyLog" class="history-log"></div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
